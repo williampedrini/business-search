@@ -5,7 +5,7 @@ import {BusinessDetail} from "../model/BusinessDetail";
 const CLIENT = axios.create({
     baseURL: "https://api.yelp.com/v3/businesses",
     headers: {
-        Authorization: "Bearer bpMaX5n0GeLJDexdCszzUGoi4kF88xxahQwe4qOfcxF53klEAdujUowCMq_EvbWBt29TG10Zp_-eXGR6qForzGPIuzr2yIovH1IeE6atJO6RuO7IIviGwtWkg2XYYHYx"
+        Authorization: "Bearer <YELP_API_TOKEN>" //Change to the Yelp API.
     }
 });
 
